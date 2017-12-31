@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a32ndbatch.rubuya09.uuproject2.travelguideuu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".NPMainActivity" />
+        <activity android:name=".NPResponseActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".TravelAgency.TravelAgencyResponseActivity" />
+        <activity android:name=".EventInfoActivity" />
+        <activity android:name=".HistoricalLandMarkActivity" />
+        <activity android:name=".info.BarisalInfoListActivity" />
+        <activity android:name=".info.DhakaInfoListActivity" />
+        <activity android:name=".info.RajsahiInfoListActivity" />
+        <activity android:name=".info.ChittagongInfoListActivity" />
+        <activity android:name=".info.KhulnaInfoListActivity" />
+        <activity android:name=".info.SylhetInfoListActivity" />
+        <activity android:name=".info.RangpurInfoListActivity" />
+        <activity android:name=".info.MymensinghInfoListActivity" />
+        <activity android:name=".hotel.HotelBarisal" />
+        <activity android:name=".hotel.HotelRajsahi" />
+        <activity android:name=".hotel.HotelDhaka" />
+        <activity android:name=".hotel.HotelRangpur" />
+        <activity android:name=".hotel.HotelChittagong" />
+        <activity android:name=".hotel.HotelMymensingh" />
+        <activity android:name=".hotel.HotelKhulna" />
+        <activity android:name=".hotel.HotelSylhet"></activity>
+    </application>
+
+</manifest>

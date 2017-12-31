@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nearestLocation"
+            android:icon="@mipmap/location"
+            android:title="Nearest Location" />
+        <item
+            android:id="@+id/agency"
+            android:icon="@mipmap/agency"
+            android:title="Travel Agency" />
+        <item
+            android:id="@+id/eventInfo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Event Info" />
+        <item
+            android:id="@+id/landmarks"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Historical Landmarks" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/logout"
+            android:title="logout" />
+    </group>
+
+
+
+</menu>

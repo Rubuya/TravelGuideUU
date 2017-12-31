@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TravelGuideUU</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="where_to">Enter destination place </string>
+    <string name="find_distance">Find Distance</string>
+    <string name="it_will_take">It will take </string>
+    <string name="distance_between_your_current_location_and">Distance Between Your Current Location and </string>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "436151700042",
+    "firebase_url": "https://travelguideuu.firebaseio.com",
+    "project_id": "travelguideuu",
+    "storage_bucket": "travelguideuu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436151700042:android:c0708ea63c29b5b5",
+        "android_client_info": {
+          "package_name": "a32ndbatch.rubuya09.uuproject2.travelguideuu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436151700042-i2ku17nsvs6m3jkgsfdj9bn2khm2r2r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "a32ndbatch.rubuya09.uuproject2.travelguideuu",
+            "certificate_hash": "92adc45a388d7f93a74fee2a21e6b81ebb694dd0"
+          }
+        },
+        {
+          "client_id": "436151700042-s7bd415p62lqtrhkdga0513i775avbsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuoknXgsDwa-H1Ld1a1EJj6InIYIfq7x4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436151700042-s7bd415p62lqtrhkdga0513i775avbsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

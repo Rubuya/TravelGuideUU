@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="a32ndbatch.rubuya09.uuproject2.travelguideuu.SignUpActivity">
+
+
+    <EditText
+        android:id="@+id/etEmailSignup"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/etPasswordSignUp"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:id="@+id/etPasswordSignUp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="password"
+        android:layout_alignStart="@+id/etEmailSignup" />
+    <Button
+        android:id="@+id/imSignupSignup"
+       android:text="Register"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="61dp"
+        android:layout_alignTop="@+id/etPasswordSignUp"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/tvLoginHere"
+        android:textColor="#2a09e4"
+        android:text="Already register?Login here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/imSignupSignup"
+        android:layout_alignStart="@+id/etPasswordSignUp"
+        android:layout_marginStart="65dp" />
+    <ProgressBar
+        android:id="@+id/progresbarSignup"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/tvLoginHere"/>
+
+</RelativeLayout>

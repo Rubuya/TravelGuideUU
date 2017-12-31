@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="a32ndbatch.rubuya09.uuproject2.travelguideuu.MainActivity">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/etPassword"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/imLogin"
+        android:hint="password"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/imLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="179dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/progresbar" />
+    <Button
+        android:id="@+id/imSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        android:layout_marginEnd="39dp"
+        android:layout_alignTop="@+id/imLogin"
+        android:layout_alignParentEnd="true" />
+    <ProgressBar
+        android:id="@+id/progresbar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

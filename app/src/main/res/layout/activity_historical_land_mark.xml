@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="a32ndbatch.rubuya09.uuproject2.travelguideuu.HistoricalLandMarkActivity">
+
+    <Button
+        android:id="@+id/dhaka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/barisal"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/barisal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barisal"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/chittagong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chittagong"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/dhaka"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/Sylhet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sylhet"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/chittagong"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/khulna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khulna"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/Sylhet"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+    <Button
+        android:id="@+id/mymensingh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mymensingh"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/khulna"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+    <Button
+        android:id="@+id/rajsahi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rajsahi"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/mymensingh"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+    <Button
+        android:id="@+id/rangpur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rangpur"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/rajsahi"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
